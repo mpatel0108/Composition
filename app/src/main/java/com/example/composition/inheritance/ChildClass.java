@@ -23,7 +23,7 @@ public class ChildClass extends ParentClass{
         }catch (ArithmeticException e){
             System.out.println("Exception -->" +e);
 
-            throw new CustomException("bbbbb..");
+            throw new CustomException("This is my custom exception...");
         }
 
 
