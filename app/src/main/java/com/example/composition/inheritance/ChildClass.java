@@ -46,12 +46,6 @@ public class ChildClass extends ParentClass{
         public CustomException(String message) {
             this.message = message;
         }
-
-        public CustomException(String message, String message1) {
-            super(message);
-            this.message = message1;
-        }
-
         String message;
 
 
