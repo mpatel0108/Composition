@@ -12,8 +12,8 @@ public class ChildClass extends ParentClass{
         System.out.println("Country name from ParentClass :: " + mCountryName);
         System.out.println("PinCode from ParentClass :: " + mPinCode);
 
-        World india =  new World.Builder().withCountry("India").withPinCode(12345).build();
-        World canada =  new World.Builder().withCountry("Canada").build();
+        World india =  new World.Builder().withCountry("India").withPinCode(123456).build();
+        World canada =  new World.Builder().withCountry("Us").build();
 
         System.out.println("Country - "+ india.mCountry +" , PinCode - " + india.mPinCode);
         System.out.println("Country - "+ canada.mCountry);
